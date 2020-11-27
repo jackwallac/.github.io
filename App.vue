@@ -11,7 +11,7 @@
 
 <p>I think I was 13 when I first played "Dark Souls."</p>
 
-<p>It's partly the nigh-sadistic difficulty of the game and the subsequent sense of overwhelming accomplishment from overcoming its many obstacles that allows me to recall my exact age at the time of this surpisingly formative moment. On further reflection, however, this was the very first time that I experienced a piece of media that succeeded on every front with regards to an embedded narrative and gripping, environmental storytelling. "Dark Souls" lulls you into a state of captivation, and so much of that is achieved through a rigourously planned and cohesive architectural structure. Every location of the game bleeds into each other with the utmost subtlety — it's one of the greatest feats of worldbuilding to date. </p>
+<p>It's partly the nigh-sadistic difficulty of the game and the subsequent sense of overwhelming accomplishment from overcoming its many obstacles that allows me to recall my exact age at the time of this surpisingly formative moment. On further reflection, however, this was the very first time that I experienced a piece of media that succeeded on every front with regards to an embedded narrative and gripping, environmental storytelling. "Dark Souls" lulls you into a state of captivation from start to finish, and so much of that is achieved through a rigourously planned and cohesive architectural structure. Every location of the game bleeds into each other with the utmost subtlety — it's one of the greatest feats of worldbuilding to date. </p>
 
 <p>It would take quite a while for me to realize that "Dark Souls" unconciously inspired my current career path. Almost a decade, even. I was devouring architecture books without even realizing why. Majoring in both Architectural Engineering and Radio/Television/Film was my way of exploring this curiosity, and it wasn't until my sophomore year that I realized that a career in production/set design suited me perfectly. No other field has come even close to sating this curiosity. It's the first career I've encountered that values my mastery of the architectural language and rewards my engineering and creative savvy in crafting authentic environments that translate to the screen. It's a career that values, well, me — and I'm fully invested. </p>
 
@@ -27,7 +27,7 @@
     </a>
 
 
-    <a class = "tooltip2"><img src="./assets/portfolio.png" width="125" height="50" class="portfolio"  onmouseover="document.getElementById('sketch').src='https://imgur.com/hKsnDxW'" onmouseout="document.getElementById('sketch').src='https://i.imgur.com/zSVliHA.png'"> <span>
+    <a class = "tooltip2"><img src="./assets/portfolio.png" width="125" height="50" class="portfolio"  onmouseover="document.getElementById('sketch').src='https://i.imgur.com/hKsnDxW.png'" onmouseout="document.getElementById('sketch').src='https://i.imgur.com/zSVliHA.png'" > <span>
   <h2> Here's where you can find some of my stuff. </h2>
     <div class="gallery">
 
@@ -45,7 +45,7 @@
     </div>
 
     <div class="gallery">
-      <a target="_blank" href="https://drive.google.com/file/d/1Wjzsfuaq9Tzp4ZXpbSEqzHXzScEDBnJ1/view?usp=sharing">
+      <a target="_blank" href="https://drive.google.com/file/d/1UCCYjmvSsZGNU5o1HzbcVWskzbKNmyDn/view?usp=sharing">
         <img src="https://i.imgur.com/89xRVs4.png" alt="Northern Lights" width="600" height="400">
       </a>
       <div class="desc"><h1>Sketchbook:</h1> A compedium of personal sketches and projects. Will be frequently updated! </div>
@@ -55,10 +55,13 @@
   </a>
 
 
-    <a href="https://www.instagram.com/thejackwallace/?hl=en" target="_blank"><img src="./assets/insta.png" width="200" height="61" class="insta" align="bottom right" onmouseover="document.getElementById('sketch').src='https://i.imgur.com/e6lJgSH.png'" onmouseout="document.getElementById('sketch').src='https://i.imgur.com/zSVliHA.png'"> </a>
-    <a href="mailto:jackwallacecollege@gmail.com" target="_blank"><img src="./assets/email.png" width="200" height="54" class="email" align="bottom right" onmouseover="document.getElementById('sketch').src='https://imgur.com/VvF5jTO'" onmouseout="document.getElementById('sketch').src='https://i.imgur.com/zSVliHA.png'"> </a>
+    <a href="https://www.instagram.com/thejackwallace/?hl=en" target="_blank"><img src="./assets/insta.png" width="200" height="61" class="insta" align="bottom right" onmouseover="document.getElementById('sketch').src='https://i.imgur.com/YwGOaKL.png'" onmouseout="document.getElementById('sketch').src='https://i.imgur.com/zSVliHA.png'"> </a>
+    <a href="mailto:jackwallacecollege@gmail.com" target="_blank"><img src="./assets/email.png" width="200" height="54" class="email" align="bottom right" onmouseover="document.getElementById('sketch').src='https://i.imgur.com/yUJmNxv.png'" onmouseout="document.getElementById('sketch').src='https://i.imgur.com/zSVliHA.png'"> </a>
 
-    <img id="sketch" class="sketch" src="./assets/backgroundphoto.png" width="400" height="250">
+    <img id="sketch" class="sketch" src="./assets/backgroundphoto.png" width="400" height="250" max-height="400">
+
+
+
 
 </div>
 
@@ -201,13 +204,16 @@ padding-top: 30px;
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 .sketch {
-  position: absolute;
-  top: 250px;
+  position: fixed;
+  top: 225px;
   left: 150px;
+  max-height: 400px;
 }
+
 
 .sign {
   position: absolute;
+    z-index: 999;
   bottom: 250px;
   left: 170px;
 }
