@@ -27,11 +27,11 @@
     </a>
 
 
-    <a class = "tooltip2"><img src="./assets/portfolio.png" width="125" height="50" class="portfolio"  onmouseover="document.getElementById('sketch').src='https://i.imgur.com/xlYJWsZ.png'" onmouseout="document.getElementById('sketch').src='https://i.imgur.com/zSVliHA.png'"> <span>
+    <a class = "tooltip2"><img src="./assets/portfolio.png" width="125" height="50" class="portfolio"  onmouseover="document.getElementById('sketch').src='https://imgur.com/hKsnDxW'" onmouseout="document.getElementById('sketch').src='https://i.imgur.com/zSVliHA.png'"> <span>
   <h2> Here's where you can find some of my stuff. </h2>
     <div class="gallery">
 
-      <a target="_blank" href="https://i.imgur.com/gB2ytCX.png">
+      <a target="_blank" href="https://drive.google.com/file/d/1NxTr2Ffi40WbyFUtLbFYmgd8UIAND5ZY/view?usp=sharing">
         <img src="https://i.imgur.com/H3f3lip.png" alt="Cinque Terre" width="600" height="400">
       </a>
       <div class="desc"><h1>Bench Project:</h1> Designed and modeled a pedestrian bench to integrate into the landscape of the Belo Center for New Media lawn. Critical attention was given to drafting a bench that equally functioned as a recliner.</div>
@@ -45,7 +45,7 @@
     </div>
 
     <div class="gallery">
-      <a target="_blank" href="https://drive.google.com/file/d/1EizLQ9WsJ7VYFFzXrfUAwiQHD-hJK1-E/view?usp=sharing">
+      <a target="_blank" href="https://drive.google.com/file/d/1Wjzsfuaq9Tzp4ZXpbSEqzHXzScEDBnJ1/view?usp=sharing">
         <img src="https://i.imgur.com/89xRVs4.png" alt="Northern Lights" width="600" height="400">
       </a>
       <div class="desc"><h1>Sketchbook:</h1> A compedium of personal sketches and projects. Will be frequently updated! </div>
@@ -56,7 +56,7 @@
 
 
     <a href="https://www.instagram.com/thejackwallace/?hl=en" target="_blank"><img src="./assets/insta.png" width="200" height="61" class="insta" align="bottom right" onmouseover="document.getElementById('sketch').src='https://i.imgur.com/e6lJgSH.png'" onmouseout="document.getElementById('sketch').src='https://i.imgur.com/zSVliHA.png'"> </a>
-    <a href="mailto:jackwallacecollege@gmail.com" target="_blank"><img src="./assets/email.png" width="200" height="54" class="email" align="bottom right" onmouseover="document.getElementById('sketch').src='https://i.imgur.com/MhM0qGR.png'" onmouseout="document.getElementById('sketch').src='https://i.imgur.com/zSVliHA.png'"> </a>
+    <a href="mailto:jackwallacecollege@gmail.com" target="_blank"><img src="./assets/email.png" width="200" height="54" class="email" align="bottom right" onmouseover="document.getElementById('sketch').src='https://imgur.com/VvF5jTO'" onmouseout="document.getElementById('sketch').src='https://i.imgur.com/zSVliHA.png'"> </a>
 
     <img id="sketch" class="sketch" src="./assets/backgroundphoto.png" width="400" height="250">
 
